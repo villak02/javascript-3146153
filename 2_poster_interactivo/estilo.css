@@ -8,9 +8,46 @@
     width: 750px;
    height: 500px;
    margin: auto;
+   position: relative;
 }
 
 .pantalla .fondo{
 
     width: 100%;
+}
+
+.bloque1{
+    position: absolute;
+    top: 47%;
+    left: 20%;
+}
+
+.moneda1{
+    position: absolute;
+    top: 36%;
+    left: 25%;
+}
+
+.moneda2{
+    position: absolute;
+    top: 36%;
+    left: 33%;
+}
+
+.bloque2{
+    position: absolute;
+    top: 30%;
+    left: 53%;
+}
+
+.corazon{
+    position: absolute;
+    top: 17%;
+    left: 57%;
+}
+
+.moneda3{
+    position: absolute;
+    top: 52%;
+    left: 89%;
 }
