@@ -97,3 +97,33 @@
       height: 24px;
       margin-right: 8px;
     }
+
+    @keyframes mover-lateral {
+        0% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(50px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    /* animacion para los bloques */
+
+    .bloque1{
+        position: absolute;
+        top: 47%;
+        left: 18%;
+        animation: mover-lateral 4s infinite;
+    }
+
+    .bloque2 {
+        position: absolute;
+        top: 32%;
+        left: 53%;
+        animation: mover-lateral 2s infinite;
+    }
