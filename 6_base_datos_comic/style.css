@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: arial, sans-serif;
+    background-color: rgb(14, 13, 13);
+    color: rgb(0, 0, 0);
+    line-height: 1.6;}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+     padding: 10px 20px;
+     position: fixed;
+     gap: 120vh;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+    
+.inicio{
+    position: relative;
+    height: 80vh;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    gap: 60vh;
+}
+.textos{
+    height: 50%;
+    right: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+.img1{
+    height: 50%;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.nav-links a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: COLOR 0.3s;
+    font-size: 25px;
+}
+.nav-links a:hover{
+    color: #6d1010;
+}
+.logo{
+    height: 100px;
+    left: 10px;
+}
+
+
+
+.capitulos {
+  padding: 60px 20px;
+  text-align: center;
+  background-image: url(./assets/Captura\ de\ pantalla\ 2025-09-04\ 144327.png)
+  
+  
+
+}
+.capitulos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #6d1010;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 30%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  padding: 0 10px 20px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+
+footer {
+  background: #0d1117;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-top: 1px solid #222;
+}
